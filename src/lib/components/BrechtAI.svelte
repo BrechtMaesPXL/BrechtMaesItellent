@@ -29,7 +29,7 @@
       
       progressText = 'Loading Local LLM...';
       // We use a small conversational Llama for speed and compatibility
-      chatEngine = await CreateMLCEngine("Llama-3-8B-Instruct-q4f32_1-1k", {
+      chatEngine = await CreateMLCEngine("Llama-3.2-1B-Instruct-q4f32_1-MLC", {
         initProgressCallback: (info) => {
           progressText = `Loading Model: ${Math.round(info.progress * 100)}%`;
         }
