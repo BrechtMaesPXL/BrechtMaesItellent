@@ -8,6 +8,7 @@
     { name: 'Home', path: '/' },
     { name: 'About Me', path: '/about' },
     { name: 'Activities', path: '/activities' },
+    { name: 'Presentation', path: '/presentation' },
     { name: 'Play Game', path: '/play' }
   ];
 </script>

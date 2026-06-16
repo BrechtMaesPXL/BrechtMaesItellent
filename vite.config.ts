@@ -15,9 +15,27 @@ export default defineConfig({
             manifest: {
                 name: 'Brecht Maes Portfolio',
                 short_name: 'Brecht',
-                theme_color: '#000000',
-                background_color: '#000000',
-                display: 'standalone'
+                theme_color: '#06b6d4',
+                background_color: '#0f172a',
+                display: 'standalone',
+                icons: [
+                    {
+                        src: 'icon-192.png',
+                        sizes: '192x192',
+                        type: 'image/png'
+                    },
+                    {
+                        src: 'icon-512.png',
+                        sizes: '512x512',
+                        type: 'image/png'
+                    },
+                    {
+                        src: 'icon-512.png',
+                        sizes: '512x512',
+                        type: 'image/png',
+                        purpose: 'any maskable'
+                    }
+                ]
             }, 
             workbox: {
                 maximumFileSizeToCacheInBytes: 10485760, 
