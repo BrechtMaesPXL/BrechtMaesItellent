@@ -39,6 +39,7 @@ export default defineConfig({
             }, 
             workbox: {
                 maximumFileSizeToCacheInBytes: 10485760, 
+                navigateFallbackDenylist: [/^\/game/, /^\/unity-build/]
             }
         })
     ],
